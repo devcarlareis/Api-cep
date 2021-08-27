@@ -74,5 +74,5 @@
   ],
   "include": [
     "src/**/*"
-  ]
+, "test/consultcep.test.ts"  ]
 }
