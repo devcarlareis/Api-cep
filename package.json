@@ -6,12 +6,14 @@
   "author": "devcarlareis <carla.jusreis@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
     "@types/express": "^4.17.13",
-    "@types/node": "^16.7.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.2",
     "@types/node-fetch": "^2.5.12",
     "jest": "^27.0.6",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.2"
   },
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
